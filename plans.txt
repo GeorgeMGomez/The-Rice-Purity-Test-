@@ -1,0 +1,10 @@
+Best possible score: 100
+Worst possible score : 0
+
+Endings:
+    1st Ending: 100-95 -> Holy Ending
+    2nd Ending: 94-75 -> Average Ending
+    3rd Ending: 74-50 -> Borderline Moral Ending
+    4th Ending: 49-25 -> Say goodbye to heaven Ending
+    5th Ending: 24-0 -> You need to go to jail Ending
+    

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
     <title>Rice Purity Test?</title>
 </head>
 <body>
@@ -10,26 +11,28 @@
     <div>
         <ol>
             <li>
-                <input type="checkbox" id="1" name="1">
-                <label for="1">You've never held hands romantically.</label>
+                <input type="checkbox" id="1" name="1" autocomplete="off">
+                <label for="1">Held hands romantically?</label>
             </li>
             <li>
-                <input type="checkbox" id="2" name="2">
-                <label for="2">You've never been on a date.</label>
+                <input type="checkbox" id="2" name="2" autocomplete="off">
+                <label for="2">Been on a date?</label>
             </li>
             <li>
-                <input type="checkbox" id="3" name="3">
-                <label for="3">You've never been on a relationship.</label>
+                <input type="checkbox" id="3" name="3" autocomplete="off">
+                <label for="3">Been in a relationship?</label>
             </li>
             <li>
-                <input type="checkbox" id="4" name="4">
-                <label for="4">You've never danced without leaving room for jesus.</label>
+                <input type="checkbox" id="4" name="4" autocomplete="off">
+                <label for="4">Danced without leaving room for Jesus?</label>
             </li>
             <li>
-                <input type="checkbox" id="5" name="5">
-                <label for="5">You've never danced without leaving room for jesus.</label>
+                <input type="checkbox" id="5" name="5" autocomplete="off">
+                <label for="5">Kissed a non-family member?</label>
             </li>
         </ol>
+
+        <button type="button" onClick="calculate()">Submit</button>
     </div>
     
     <script src="/js/index.js"></script>
